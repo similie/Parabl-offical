@@ -1,0 +1,241 @@
+.book_a_demo {
+  width: 280px;
+height: 64px;
+top: 768px;
+left: 288px;
+gap: 0px;
+border-radius: 32px 0px 0px 0px;
+opacity: 0px;
+font-size: 20px;
+font-weight: 400;
+color: #FFFFFF;
+
+}
+.key_function-item {
+  height: 440px !important;
+  margin-top: 20px;
+}
+.view_detail {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view_detail-button {
+
+  width: 160px;
+  height: 48px;
+  background: #102e54;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+}
+.view_detail-flag {
+  cursor: pointer;
+  height: 30px !important;
+}
+.your-world {
+  height: 450px;
+  background-color: #c2cbcde3;
+  border-radius: 15px;
+}
+
+#fws_671a34de94c8e{
+  position: relative;
+}
+.key_function-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 50px;
+  z-index: 100;
+  
+}
+.key_function-top-title {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+.key_function-top-more {
+font-size: 20px;
+font-weight: 700;
+cursor: pointer;
+text-decoration: underline;
+color:   #5A7F5C;
+
+}
+.key_function-top-more::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #03BFD9;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.case_study-top {
+  width: 100vw;
+  position: relative;
+  /* top: 0; */
+  /* left: 0; */
+  height: 150px;
+  background: linear-gradient(97.87deg, #225D93 44.22%, #FFFFFF 97.71%, #169EB1 141.45%);
+  z-index: 3;
+font-size: 50px;
+font-weight: 700;
+text-align: left;
+padding: 10px 50px;
+color: #fff;
+line-height: 130px
+}
+.post-header {
+  width: 100%;
+}
+.article-content-wrap .title {
+  height: 100%;display: flex;align-items: center;font-size: 40px;
+}
+/* <div class="article_footer">
+<div class="article_footer-top">
+  <div class="top-logo">
+    <img src="./wp-content/uploads/2023/1/2.png" alt="">
+  </div>
+  <div class="top-time">
+    · 2 hours ago
+  </div>
+</div>
+<div class="article_footer-bottom">
+  People and Tech: Revolutionising Military Logistics System
+</div> */
+
+.article_footer-top {
+  display: flex;
+  align-items: center;
+}
+.article_footer-top .top-logo {
+  height: 50px;
+  width: 120px;
+}
+.article_footer-top .top-logo img {
+  width: 100%;
+}
+.article_footer-bottom {
+  color: #000;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#footer-widgets {
+  position: relative;
+}
+
+.footer_text {
+  position: absolute;
+  bottom: 20px;
+  z-index: 20;
+  width: 80%;
+  color: #000; padding: 20px 60px; font-size: 30px;
+}
+.footer-widgets-container {
+  height: 400px;
+  background: #fff;
+}
+.footer-widgets-container :first-child {
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  left: 24px;
+}
+.footer-widgets-container :nth-child(2) {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 10%;
+  right: 40px;
+}
+#footer-link {
+  margin-top: 100px;
+  padding: 20px 0;
+  color: #000 !important;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background: linear-gradient(180deg, #FFFFFF 2.94%, rgba(1, 53, 100, 0.49) 166.4%, rgba(1, 53, 100, 0.71) 240.88%);
+
+}
+.footer-link_left {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  font-size: 16px;
+}
+.footer-link_right {
+  width: 70%;
+}
+.footer-link_right a {
+  color: #000 !important;
+  text-decoration: underline;
+}
+.footer-link_left li {
+  /* 恢复默认样式 */
+  line-height: 2;
+  list-style:disc !important;
+}
+/* key_function-top 手机屏幕下, 显示小一些 */
+@media (max-width: 1200px) {
+  .view_detail {
+    top: 300px;
+    bottom: auto;
+  }
+  .key_function-top {
+    height: 60px;
+    padding: 0 10px;
+  }
+  .key_function-top-title {
+    font-size: 26px;
+  }
+  .key_function-top-more {
+    font-size: 14px;
+  }
+  .key_function-item {
+    height: 360px !important;
+  }
+  .case_study-top-title {
+    font-size: 26px;
+  }
+  .article-content-wrap title {
+    height: 60px;
+    font-size: 24px;
+  }
+  .article-content-wrap .view_detail {
+    top: 200px;
+  }
+  .footer_text {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  #footer-link {
+    flex-direction: column;
+  }
+  .footer-link_right  {
+    padding: 20px;
+    width: 100%;
+  }
+}
