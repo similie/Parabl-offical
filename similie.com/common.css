@@ -2924,7 +2924,7 @@ body[data-ajax-transitions="true"] #ajax-loading-screen[data-effect="center_mask
 #ajax-loading-screen .loading-icon,
 .loading-icon,
 .pp_loaderIcon {
-  background-image: url("./wp-content/uploads//2023/02/icon_128x128.png");
+  background-image: url("1/icon.png");
 }
 
 #ajax-loading-screen,
